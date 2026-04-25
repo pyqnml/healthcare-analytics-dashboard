@@ -29,7 +29,7 @@ Analyze healthcare data to track patient trends, doctor performance, treatment p
 
 - Extracted data from Excel file with multiple sheets  
 - Converted data into separate CSV files for structured analysis  
-- Cleaned and organized datasets for SQL querying and Power BI  
+- Cleaned and prepared datasets for SQL querying and Power BI  
 
 ---
 
@@ -57,7 +57,19 @@ Analyze healthcare data to track patient trends, doctor performance, treatment p
 
 ## 📷 Dashboard Preview
 
-![Dashboard](images/dashboard_preview.png)
+The dashboard consists of 4 pages covering different analytical perspectives.
+
+### Executive Overview
+![Executive Overview](images/Executive Overview.png)
+
+### Doctor Performance
+![Doctor Performance](images/Doctor performance.png)
+
+### Treatment Analysis
+![Treatment Analysis](images/Treatment Analysis.png)
+
+### Patient Insights
+![Patient Insights](images/Patient Insights.png)
 
 ---
 
