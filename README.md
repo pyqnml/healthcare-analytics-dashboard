@@ -56,7 +56,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 🧮 SQL Analysis
 
-File: `KPI_Queries_SQL.sql`
+File: [KPI_Queries_SQL.sql](sql/KPI_Queries_SQL.sql)
 
 Key KPIs calculated:
 
@@ -71,7 +71,7 @@ Key KPIs calculated:
 
 ## 📊 Dashboard (Power BI)
 
-File: `Dashboard_PowerBI.pbix`
+File: [Dashboard_PowerBI.pbix](dashboard/Dashboard_PowerBI.pbix)
 
 The dashboard includes 4 pages:
 
@@ -152,5 +152,3 @@ This project demonstrates end-to-end analytics:
 
 ## 👤 Author
 Y.Bhuvaneshwari
-
-[Your Name]
