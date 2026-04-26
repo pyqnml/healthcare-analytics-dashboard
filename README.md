@@ -27,12 +27,12 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 📂 Data Sources
 
-* RawData_Healthcare_Excel.xlsx (original dataset)
-* Patient.csv
-* Doctor.csv
-* Visit.csv
-* Treatments.csv
-* Lab_Results.csv
+* [RawData_Healthcare_Excel.xlsx](data/RawData_Healthcare_Excel.xlsx)  
+* [Patient.csv](data/Patient.csv)  
+* [Doctor.csv](data/Doctor.csv)  
+* [Visit.csv](data/Visit.csv)  
+* [Treatments.csv](data/Treatments.csv)  
+* [Lab_Results.csv](data/Lab_Results.csv)  
 
 ---
 
@@ -147,6 +147,24 @@ This project demonstrates end-to-end analytics:
 * KPI development
 * Interactive dashboard creation
 * Business insight generation
+
+---
+
+## ▶️ How to Use
+
+1. Download dataset files from the `data/` folder  
+2. Run SQL queries from [KPI_Queries_SQL.sql](sql/KPI_Queries_SQL.sql)  
+3. Open [Dashboard_PowerBI.pbix](dashboard/Dashboard_PowerBI.pbix) in Power BI  
+4. Explore the interactive dashboard  
+
+---
+
+## 📁 Project Structure
+- data/ → Dataset files (Excel & CSV)  
+- sql/ → SQL queries  
+- dashboard/ → Power BI file  
+- images/ → Dashboard screenshots  
+- README.md → Documentation  
 
 ---
 
