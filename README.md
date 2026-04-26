@@ -1,81 +1,156 @@
-# Healthcare Analytics Dashboard
+# 🏥 Healthcare Analytics Dashboard
 
-## 📌 Objective
-Analyze healthcare data to track patient trends, doctor performance, treatment patterns, and lab results using SQL and Power BI.
+## 📌 Problem Statement
+
+Healthcare organizations often lack centralized insights into patient data, leading to inefficient resource allocation, high treatment costs, and poor decision-making.
+
+---
+
+## 🎯 Objective
+
+To build a data-driven analytics solution using SQL and Power BI to analyze:
+
+* Patient trends
+* Doctor performance
+* Treatment patterns
+* Cost insights
+
+---
+
+## 🛠 Tools Used
+
+* **SQL** → Data cleaning, transformation, KPI calculation
+* **Power BI** → Dashboard & visualization
+* **Excel** → Data source
 
 ---
 
 ## 📂 Data Sources
 
-- **RawData_Healthcare_Excel.xlsx** → Original dataset containing multiple sheets  
-- **Patient.csv** → Patient demographic details  
-- **Doctor.csv** → Doctor information  
-- **Visit.csv** → Patient visit records  
-- **Treatments.csv** → Treatment details for each visit  
-- **Lab_Results.csv** → Lab test results of patients  
+* RawData_Healthcare_Excel.xlsx (original dataset)
+* Patient.csv
+* Doctor.csv
+* Visit.csv
+* Treatments.csv
+* Lab_Results.csv
 
 ---
 
 ## 🔗 Data Relationships
 
-- Patient data is linked with Visit using **patient_id**  
-- Doctor data is linked with Visit using **doctor_id / doctor_name**  
-- Treatments are linked with Visit using **visit_id**  
-- Lab Results are linked with Patient or Visit using **patient_id / visit_id**  
+* Patient ↔ Visit → `patient_id`
+* Doctor ↔ Visit → `doctor_id`
+* Visit ↔ Treatments → `visit_id`
+* Visit ↔ Lab Results → `visit_id`
 
 ---
 
 ## 🔄 Data Preparation
 
-- Extracted data from Excel file with multiple sheets  
-- Converted data into separate CSV files for structured analysis  
-- Cleaned and prepared datasets for SQL querying and Power BI  
+* Extracted multiple sheets from Excel
+* Converted into structured CSV files
+* Cleaned missing values and standardized columns
+* Created relationships across datasets
 
 ---
 
 ## 🧮 SQL Analysis
 
-- File: **KPI_Queries_SQL.sql**  
-- Wrote SQL queries to calculate key KPIs:
-  - Total Patients  
-  - Total Visits  
-  - Average Age  
-  - Most Common Diagnosis  
-  - Patients per Doctor  
-- Used JOIN operations across multiple datasets  
+File: `KPI_Queries_SQL.sql`
+
+Key KPIs calculated:
+
+* Total Patients
+* Total Visits
+* Average Age
+* Most Common Diagnosis
+* Average Patients per Doctor
+* Average Treatment Cost
 
 ---
 
-## 📊 Dashboard
+## 📊 Dashboard (Power BI)
 
-- File: **Dashboard_PowerBI.pbix**  
-- Built an interactive Power BI dashboard  
-- Created KPI cards, charts, and filters  
-- Integrated multiple datasets using relationships  
+File: `Dashboard_PowerBI.pbix`
+
+The dashboard includes 4 pages:
+
+### 1. Executive Overview
+
+* KPI cards (Patients, Visits, Cost, Age)
+* Diagnosis distribution
+* Visit trends
+
+### 2. Doctor Performance
+
+* Doctor-wise patient load
+* Specialty analysis
+* Cost comparison
+
+### 3. Treatment Analysis
+
+* Treatment cost trends
+* Most common treatments
+* Outcome insights
+
+### 4. Patient Insights
+
+* Age distribution
+* Gender split
+* Geographic analysis
 
 ---
 
 ## 📷 Dashboard Preview
 
-The dashboard consists of 4 pages covering different analytical perspectives.
-
 ### Executive Overview
-![Executive Overview](images/Executive Overview.png)
+
+![Executive Overview](images/executive_overview.png)
 
 ### Doctor Performance
-![Doctor Performance](images/Doctor performance.png)
+
+![Doctor Performance](images/doctor_performance.png)
 
 ### Treatment Analysis
-![Treatment Analysis](images/Treatment Analysis.png)
+
+![Treatment Analysis](images/treatment_analysis.png)
 
 ### Patient Insights
-![Patient Insights](images/Patient Insights.png)
+
+![Patient Insights](images/patient_insights.png)
 
 ---
 
 ## 🔍 Key Insights
 
-- Certain doctors handle a higher number of patient visits  
-- Specific treatments and diagnoses are more frequent  
-- Lab results indicate patterns in patient health trends  
-- Patient distribution varies across demographics  
+* A small group of doctors handle a significant portion of total visits
+* Certain diagnoses occur most frequently, indicating major healthcare concerns
+* Treatment costs vary significantly across procedures
+* Patient demographics influence visit patterns
+
+---
+
+## 💡 Business Impact
+
+* Helps hospitals optimize doctor workload
+* Identifies high-cost treatments for cost control
+* Enables better patient care planning
+* Supports data-driven decision-making
+
+---
+
+## 🚀 Project Outcome
+
+This project demonstrates end-to-end analytics:
+
+* Data preparation using SQL
+* KPI development
+* Interactive dashboard creation
+* Business insight generation
+
+---
+
+## 👤 Author
+Y.Bhuvaneshwari
+
+[Your Name]
