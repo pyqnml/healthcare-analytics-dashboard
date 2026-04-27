@@ -1,4 +1,5 @@
 # 🏥 Healthcare Analytics Dashboard
+A data analytics project that transforms healthcare data into actionable insights using SQL and Power BI, enabling better operational and cost decisions.
 
 ## 📌 Problem Statement
 
@@ -56,6 +57,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 🧮 SQL Analysis
 
+SQL → Data cleaning, multi-table joins, aggregations, and KPI computation using GROUP BY and analytical logic
 - [View SQL Queries](Health%20Care%20Analytics%20Project/SQL/KPI_Queries_SQL.sql)
 
 ### Key KPIs:
@@ -161,12 +163,37 @@ This project demonstrates:
 
 ## ▶️ How to Use
 
-1. Download dataset files from the Dataset folder  
+1. Download dataset files from: Health Care Analytics Project/Dataset/
 2. Run SQL queries from:  
    👉 KPI_Queries_SQL.sql  
 3. Open dashboard file in Power BI:  
    👉 Dashboard_PowerBI.pbix  
 4. Explore the interactive dashboard  
+
+---
+
+## ⚠️ Limitations
+
+- Analysis is based on sample dataset and may not reflect real-world variability  
+- Some insights (e.g., workload imbalance) are derived from top-performing segments, not the full population  
+- Limited time-series depth restricts seasonality analysis  
+
+---
+
+## 🔮 Future Enhancements
+
+- Add predictive analysis for patient visits  
+- Build doctor efficiency scoring model  
+- Implement cohort analysis for repeat patients  
+- Integrate real-time data pipeline  
+
+---
+
+## 📚 Key Learnings
+
+- Building end-to-end data analytics workflows  
+- Translating business problems into analytical KPIs  
+- Designing dashboards for decision-making, not just visualization  
 
 ---
 
