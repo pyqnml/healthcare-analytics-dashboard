@@ -211,7 +211,8 @@ This project demonstrates:
 ## 👤 Author
 
 **Y.Bhuvaneshwari**
+Business Analyst - Project
 
-Aspiring Business Analyst
+
 
 ---
