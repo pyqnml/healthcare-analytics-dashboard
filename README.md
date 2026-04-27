@@ -1,5 +1,6 @@
 # 🏥 Healthcare Analytics Dashboard
 A data analytics project that transforms healthcare data into actionable insights using SQL and Power BI, enabling better operational and cost decisions.
+The dashboard is structured into four focused views, each addressing a specific business area: overall performance, doctor efficiency, treatment patterns, and patient demographics.
 
 ## 📌 Problem Statement
 
