@@ -72,7 +72,6 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 ## 📊 Dashboard (Power BI)
 
 - [Download Power BI Dashboard](Health%20Care%20Analytics%20Project/Dashboard/Dashboard_PowerBI.pbix)  
-*(If the file does not open, it may exceed GitHub size limits — consider using a Google Drive link.)*
 
 ### Dashboard Pages:
 
