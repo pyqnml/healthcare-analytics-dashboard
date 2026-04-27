@@ -19,15 +19,16 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 🛠 Tools Used
 
-- **SQL** → Data cleaning, transformation, KPI calculation  
+- **Excel** → Raw data source, Data cleaning
+- **SQL** → Transformation, KPI calculation  
 - **Power BI** → Dashboard development & visualization  
-- **Excel** → Raw data source  
+
 
 ---
 
 ## 📂 Data Sources
 
-- [Raw Healthcare Data](data/RawData_Healthcare_Excel.xlsx)  
+- [Raw Healthcare Data](RawData_Healthcare_Excel.xlsx)  
 - [Patient Data](data/Patient.csv)  
 - [Doctor Data](data/Doctor.csv)  
 - [Visit Data](data/Visit.csv)  
