@@ -19,21 +19,20 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 🛠 Tools Used
 
-- **Excel** → Raw data source, Data cleaning
-- **SQL** → Transformation, KPI calculation  
+- **Excel** → Raw data source, data cleaning  
+- **SQL** → Data transformation & KPI calculation  
 - **Power BI** → Dashboard development & visualization  
-
 
 ---
 
 ## 📂 Data Sources
 
-- [Raw Healthcare Data](RawData_Healthcare_Excel.xlsx)  
-- [Patient Data](data/Patient.csv)  
-- [Doctor Data](data/Doctor.csv)  
-- [Visit Data](data/Visit.csv)  
-- [Treatment Data](data/Treatments.csv)  
-- [Lab Results](data/Lab_Results.csv)  
+- [Raw Healthcare Data](Health%20Care%20Analytics%20Project/Dataset/RawData_Healthcare_Excel.xlsx)  
+- [Patient Data](Health%20Care%20Analytics%20Project/Dataset/Patient.csv)  
+- [Doctor Data](Health%20Care%20Analytics%20Project/Dataset/Doctor.csv)  
+- [Visit Data](Health%20Care%20Analytics%20Project/Dataset/Visit.csv)  
+- [Treatment Data](Health%20Care%20Analytics%20Project/Dataset/Treatments.csv)  
+- [Lab Results](Health%20Care%20Analytics%20Project/Dataset/Lab_Result.csv)  
 
 ---
 
@@ -57,7 +56,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 🧮 SQL Analysis
 
-- [View SQL Queries](sql/KPI_Queries_SQL.sql)
+- [View SQL Queries](Health%20Care%20Analytics%20Project/SQL/KPI_Queries_SQL.sql)
 
 ### Key KPIs:
 
@@ -72,7 +71,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 
 ## 📊 Dashboard (Power BI)
 
-- [Download Power BI Dashboard](dashboard/Dashboard_PowerBI.pbix)  
+- [Download Power BI Dashboard](Health%20Care%20Analytics%20Project/Dashboard/Dashboard_PowerBI.pbix)  
 *(If the file does not open, it may exceed GitHub size limits — consider using a Google Drive link.)*
 
 ### Dashboard Pages:
@@ -102,26 +101,26 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 ## 📷 Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](images/executive_overview.png)
+![Executive Overview](Health%20Care%20Analytics%20Project/Dashboard_Preview_Images/Executive_Overview.png)
 
 ### Doctor Performance
-![Doctor Performance](images/doctor_performance.png)
+![Doctor Performance](Health%20Care%20Analytics%20Project/Dashboard_Preview_Images/Doctor_Performance.png)
 
 ### Treatment Analysis
-![Treatment Analysis](images/treatment_analysis.png)
+![Treatment Analysis](Health%20Care%20Analytics%20Project/Dashboard_Preview_Images/Treatment_Analysis.png)
 
 ### Patient Insights
-![Patient Insights](images/patient_insights.png)
+![Patient Insights](Health%20Care%20Analytics%20Project/Dashboard_Preview_Images/Patient_Insights.png)
 
 ---
 
 ## 🔍 Key Insights
 
-- Workload variation exists among top-performing doctors, indicating potential imbalance in patient distribution  
+- Workload variation exists among top-performing doctors, indicating imbalance in patient distribution  
 - A few diseases (Migraine, Hypertension, Asthma) account for a significant share of total cases  
 - Treatment costs show moderate variation across doctors, suggesting differences in treatment approaches  
 - Patient demand is concentrated in core specialties such as General Medicine, Pediatrics, and Cardiology  
-- A noticeable drop in visit trends is observed, which may indicate a data issue or operational change  
+- A noticeable drop in visit trends is observed, indicating potential data or operational issues  
 - Treatment outcomes are relatively evenly distributed, highlighting scope for improving success rates  
 - Patient distribution is geographically concentrated in a few key regions  
 
@@ -133,7 +132,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 - Strengthen capacity in high-demand specialties  
 - Standardize treatment pricing to reduce variability  
 - Introduce preventive care programs for high-frequency diseases  
-- Investigate sudden drops in visit trends for potential operational or data issues  
+- Investigate sudden drops in visit trends  
 - Improve treatment success rates through protocol standardization and follow-ups  
 - Expand services in underrepresented geographic regions  
 - Introduce tiered pricing models (Basic / Standard / Premium)  
@@ -146,7 +145,7 @@ To build a data-driven analytics solution using SQL and Power BI to analyze:
 - Enables cost optimization and pricing transparency  
 - Supports better patient care planning  
 - Identifies operational inefficiencies  
-- Facilitates data-driven decision-making in healthcare systems  
+- Enables data-driven decision-making  
 
 ---
 
@@ -157,18 +156,22 @@ This project demonstrates:
 - End-to-end data analytics workflow  
 - SQL-based data transformation and KPI development  
 - Interactive dashboard creation using Power BI  
-- Translation of data into actionable business insights  
+- Conversion of data into actionable business insights  
 
 ---
 
 ## ▶️ How to Use
 
-1. Download dataset files from the `data/` folder  
+1. Download dataset files from the Dataset folder  
 2. Run SQL queries from:  
-   👉 [KPI_Queries_SQL.sql](sql/KPI_Queries_SQL.sql)  
+   👉 KPI_Queries_SQL.sql  
 3. Open dashboard file in Power BI:  
-   👉 [Dashboard_PowerBI.pbix](dashboard/Dashboard_PowerBI.pbix)  
+   👉 Dashboard_PowerBI.pbix  
 4. Explore the interactive dashboard  
 
 ---
 
+## 👤 Author
+
+**Y. BHUVANESHWARI**  
+Aspiring Business Analyst  
