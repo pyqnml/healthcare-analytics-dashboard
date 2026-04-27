@@ -171,16 +171,3 @@ This project demonstrates:
 
 ---
 
-## 📁 Project Structure
-
-```
-Healthcare-Analytics/
-│
-├── data/
-├── sql/
-├── dashboard/
-├── images/
-└── README.md
-```
-
----
