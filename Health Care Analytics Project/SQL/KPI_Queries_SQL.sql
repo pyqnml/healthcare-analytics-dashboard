@@ -1,3 +1,6 @@
+-- These queries were created & executed in MySQL Workbench
+
+
 -- Create a new database named healthcare_analytics
 create database healthcare_analytics;
 
